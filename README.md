@@ -1,5 +1,4 @@
-### Setup Workspace & Clone
-
+### run in ros2 humble and ubuntu22.04
 
 
 # Clone the repository and cd the workspace
@@ -31,7 +30,7 @@ source install/setup.bash
 ```
 
 
-# Run the gazebo$rviz2 node 
+# Run the gazebo&rviz2 node 
 ```bash
 ros2 launch plant spawn_turntable.launch.py
 ```
