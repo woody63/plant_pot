@@ -31,9 +31,14 @@ source install/setup.bash
 ```
 
 
-# Run the  node 
+# Run the gazebo$rviz2 node 
 ```bash
 ros2 launch plant spawn_turntable.launch.py
+```
+# Run the capture_images node 
+open a new cmd window
+```bash
+ros2 run plant image_capturer_node
 ```
 
 ```bash
